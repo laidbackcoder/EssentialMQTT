@@ -45,7 +45,7 @@ mqtt.publish_message(topic, "topic value")
 ...
 ```
 
-### Disconnect fromt the MQTT Broker
+### Disconnect from the MQTT Broker
 ```
 ...
 
