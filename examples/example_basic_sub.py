@@ -26,21 +26,23 @@ Project Site: https://github.com/laidbackcoder/EasyMQTT
 -------------------------------------------------------------------------------
 """
 
-from easy_mqtt import mqtt_client
+from src.easy_mqtt import mqtt_client
 from time import sleep
 
-client_id = 'test_client_1'
+client_id = 'test_client_2'
 broker = '127.0.0.1'
 topic = 'easy_mqtt/test/value1'
 
+# Define a callback to be executed upon topic value change
+def on_message(msg):
+    # Print any topic value changes to the console
+    print("Received: {} ({})".format(msg.payload.decode(), msg.topic))
+
 mqtt = mqtt_client(client_id, broker)
 mqtt.connect()
+mqtt.subscribe_to_topic(topic, on_message)
 
-# Publish an integer every second for 10 seconds
-val = 0
-while val < 10:
-    mqtt.publish_message(topic, val)
-    val += 1
-    sleep(1)
+# Keep connection open for 60 seconds
+sleep(60)
 
 mqtt.disconnect()
