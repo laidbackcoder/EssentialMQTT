@@ -10,7 +10,7 @@ pip install essentialmqtt
 
 ## :computer: Basic Usage
 
-### Setup & Connect to MQTT Broker
+### Setup & Connect to the MQTT Broker
 ```
 from essentialmqtt import mqtt_client
 
