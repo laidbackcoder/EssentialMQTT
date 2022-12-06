@@ -36,7 +36,7 @@ topic = 'easy_mqtt/test/value1'
 mqtt = mqtt_client(client_id, broker)
 mqtt.connect()
 
-# Publish an incremental integer every second for 10 seconds
+# Publish an integer every second for 10 seconds
 val = 0
 while val < 10:
     mqtt.publish_message(topic, val)
