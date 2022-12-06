@@ -22,11 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 -------------------------------------------------------------------------------
-Project Site: https://github.com/laidbackcoder/EasyMQTT
+Project Site: https://github.com/laidbackcoder/EssentialMQTT
 -------------------------------------------------------------------------------
 """
 
-from src.easy_mqtt import mqtt_client
+from src.essentialmqtt import mqtt_client
 from time import sleep
 
 client_id = 'test_client_1'
