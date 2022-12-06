@@ -1,5 +1,5 @@
-# EasyMQTT
-An Easy to use MQTT module for Python.
+# EssentialMQTT
+An Easy to use Python module with just the essentials for working with MQTT.
 
 
 
