@@ -1,14 +1,14 @@
 # EssentialMQTT
-An easy to use Python module with just the essentials for working with MQTT.
+An easy to use Python module with just the essentials for working with MQTT[^1].
 
 
-## Installation
+## :wrench: Installation
 ```
 pip install essentialmqtt
 ```
 
 
-## Basic Usage
+## :computer: Basic Usage
 
 ### Setup & Connect to MQTT Broker
 ```
@@ -55,6 +55,10 @@ mqtt.disconnect()
 See [Examples](https://github.com/laidbackcoder/EssentialMQTT/tree/master/examples) for more information
 
 
-## Additional Credits
+## :thumbsup: Additional Credits
 
 This project is built upon the [Paho MQTT](https://www.eclipse.org/paho/index.php?page=clients/python/index.php) Python Module from eclipse.
+
+
+
+[^1]: https://mqtt.org/
