@@ -14,9 +14,9 @@ pip install essentialmqtt
 ```
 from essentialmqtt import mqtt_client
 
-client_id = 'test_client_2'
+client_id = 'test_client_1'
 broker = '127.0.0.1'
-topic = 'easy_mqtt/test/value1'
+topic = 'essentialmqtt/test/value1'
 
 
 mqtt = mqtt_client(client_id, broker)
