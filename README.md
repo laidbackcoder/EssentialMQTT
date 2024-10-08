@@ -2,12 +2,6 @@
 An easy to use Python module with just the essentials for working with MQTT[^1].
 
 
-## :wrench: Installation
-```
-pip install essentialmqtt
-```
-
-
 ## :computer: Basic Usage
 
 ### Setup & Connect to the MQTT Broker
