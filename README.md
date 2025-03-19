@@ -18,6 +18,8 @@ mqtt.connect()
 
 ...
 ```
+*__Please Note:__ You can also pass a Username and Password to the Constructor*
+
 
 ### Subscribe to a Topic
 ```
